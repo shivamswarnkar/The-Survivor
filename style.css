@@ -24,6 +24,9 @@ a{
 	color:white;
 	background : url("title_background.jpg") no-repeat center center fixed;
 }
+.title:hover{
+	color:red;
+}
 
 .content{
 	width: 100%;

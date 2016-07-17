@@ -1,0 +1,22 @@
+*{
+	box-sizing: border-box;
+	margin:0px;
+}
+
+body{
+	font-family: "Survivor Font";
+	color:black;
+}
+
+.title{
+	font-size: 10em;
+}
+
+
+
+/*--------Fonts-------*/
+
+@font-face{
+	font-family: "Survivor Font";
+	src:url("Survivor Font.ttf");
+}

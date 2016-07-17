@@ -1,3 +1,10 @@
+/*-----remove it-------*/
+#under-construction{
+	font-size: .1em;
+	text-align: center;
+}
+
+/*-----remove it-------*/
 *{
 	box-sizing: border-box;
 	margin:0px;
@@ -8,8 +15,37 @@ body{
 	color:black;
 }
 
+a{
+	text-decoration: none;
+}
 .title{
 	font-size: 10em;
+	text-align: center;
+	color:white;
+	background : url("title_background.jpg") no-repeat center center fixed;
+}
+
+.content{
+	width: 100%;
+	background-color: white;
+	color:black;
+	margin:2.5% 0% 0% 0%;
+	height: 70vh;
+	opacity: 1;
+	font-size: 15em;
+	padding: 1%;
+	overflow: auto;
+}
+
+.content:hover{
+	background-color: white;
+	color:black;
+}
+
+footer{
+	font-size: 1em;
+	text-align: right;
+	clear:both;
 }
 
 

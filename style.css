@@ -38,6 +38,7 @@ a{
 	font-size: 15em;
 	padding: 1%;
 	overflow: auto;
+	background:url("player.gif") repeat center center;
 }
 
 .content:hover{

@@ -1,6 +1,6 @@
 
 function animateName(id, initial_Size){
-	var elem = document.getElementBYId(id).style;
+	var elem = document.getElementById(id).style;
 	var size = elem.fontSize.slice(0, elem.fontSize.length-3);
 	var mult = .5;
 	if(size <= initial_Size ){
@@ -11,4 +11,14 @@ function animateName(id, initial_Size){
 	}
 
 
+}
+
+function play(){
+	document.getElementById("play_button").style.visibility = "hidden";
+	var game = document.getElementById("game");
+	var game_head = document.getElementById("game_head");
+	game.style.backgroundColor = "white";
+	game.style.color = "red";
+	game_head.innerHTML = "Loading. . . . . .";
+	game_head.style.margin = "aut0";
 }

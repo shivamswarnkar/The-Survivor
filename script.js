@@ -21,6 +21,6 @@ function play(){
 	game.style.backgroundColor = "white";
 	game.style.color = "red";
 	game_head.innerHTML = "Loading. . . . . .";
-	img.src = "player.gif";
+	img.src = "load.svg";
 	img.style.visibility = "visible";
 }

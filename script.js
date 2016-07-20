@@ -17,8 +17,10 @@ function play(){
 	document.getElementById("play_button").style.visibility = "hidden";
 	var game = document.getElementById("game");
 	var game_head = document.getElementById("game_head");
+	var img = document.getElementById("image");
 	game.style.backgroundColor = "white";
 	game.style.color = "red";
 	game_head.innerHTML = "Loading. . . . . .";
-	game_head.style.margin = "aut0";
+	img.src = "player.gif";
+	img.style.visibility = "visible";
 }

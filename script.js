@@ -18,9 +18,10 @@ function play(){
 	var game = document.getElementById("game");
 	var game_head = document.getElementById("game_head");
 	var img = document.getElementById("image");
-	game.style.backgroundColor = "white";
+	game.style.background = "url("+"load.svg"+")";
+	game.style.backgroundColor = "White";
 	game.style.color = "red";
 	game_head.innerHTML = "Loading. . . . . .";
-	img.src = "load.svg";
-	img.style.visibility = "visible";
+	//img.src = "load.svg";
+	//img.style.visibility = "visible";
 }

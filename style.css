@@ -89,7 +89,7 @@ footer{
 
 #image{
 	position: absolute;
-	left:45%;
+	left:30%;
 	bottom:25%;
 	visibility: hidden;
 }
@@ -125,6 +125,18 @@ footer{
 		height: 70vh;
 
 	}
+
+	#game > h1{
+		font-size: 12vw;
+	}
+
+		#game > button{
+		width: 15vw;
+		height:15vw;
+		border-radius: 15vw;
+		font-size: 5vw;
+		left:40%;
+	}
 }
 
 @media (min-width: 540px) and (max-width: 759px){
@@ -141,6 +153,18 @@ footer{
 		width: 100%;
 		margin:0px;
 		height: 100vh;
+	}
+
+	#game > h1{
+		font-size: 20vw;
+		left:10%;
+	}
+	#game > button{
+		width: 25vw;
+		height: 25vw;
+		border-radius: 25vw;
+		font-size: 10vw;
+		left:35%;
 	}
 }
 
@@ -160,6 +184,18 @@ footer{
 		width: 100%;
 		margin:0px;
 		height: 100vh;
+	}
+
+	#game > h1{
+		font-size: 20vw;
+		left:10%;
+	}
+		#game > button{
+		width: 25vw;
+		height: 25vw;
+		border-radius: 25vw;
+		font-size: 10vw;
+		left:35%;
 	}
 }
 

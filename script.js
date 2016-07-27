@@ -21,7 +21,7 @@ function play(){
 	game.style.background = "url("+"load.svg"+")";
 	game.style.backgroundColor = "White";
 	game.style.color = "red";
-	game_head.innerHTML = "Loading. . . . . .";
+	game_head.innerHTML = "Loading. . .";
 	//img.src = "load.svg";
 	//img.style.visibility = "visible";
 }
